@@ -1,0 +1,44 @@
+body {
+    overflow: hidden;
+}
+
+.row {
+  border: 1px solid black;
+}
+.row.header {
+  min-height: 50px;
+}
+.row.header .btn {
+  margin: 10px 5px;
+}
+.row.main-part {
+  height: 800px;
+}
+.row.console {
+  height: 200px;
+}
+.row.console .row {
+  height: 100%;
+}
+
+.col {
+  border: 1px solid yellow;
+}
+
+#editor {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#runResults {
+    overflow: auto;
+    padding: 10px 10px 5px 10px
+}
+
+.prettyprint {
+    height: 100%;
+}
